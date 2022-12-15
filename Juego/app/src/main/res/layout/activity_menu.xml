@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <!--Puntuacion-->
+        <TextView
+            android:id="@+id/MiPuntuacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MiPuntuacion"
+            android:textSize="25sp"
+            android:gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/patitos"
+            android:text="@string/Patitos"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <!--Imagen-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imagen"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/patito"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="150dp">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+
+        <!--Correo-->
+        <TextView
+            android:id="@+id/correo"
+            android:text="@string/correo"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--Nombre-->
+        <TextView
+            android:id="@+id/nombre"
+            android:text="@string/nombre"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--txt-->
+        <TextView
+            android:id="@+id/Menutxt"
+            android:text="@string/Menutxt"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--Puntuacion-->
+
+
+
+        <Button
+            android:id="@+id/JugarBtn"
+            android:text="@string/JugarBtn"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/PuntuacionesBtn"
+            android:text="@string/PuntuacionesBtn"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/AcercaDeBtn"
+            android:text="@string/AcercaDeBtn"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/salir"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</ScrollView>

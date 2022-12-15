@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Juego</string>
+    <!--Activiti main Activity-->
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Registro</string>
+
+
+    <!--Activiti Register-->
+    <string name="correoEt">Correo</string>
+    <string name="passEt">Contraseña</string>
+    <string name="nombreEt">Nombre</string>
+    <string name="fechaTxt">Fecha</string>
+    <string name="Registrar">Registrar</string>
+
+
+    <!--Actividad Login-->
+    <string name="correoLogin">Correo</string>
+    <string name="passLogin">Contraseña</string>
+    <string name="btnEntrar">Ingresar</string>
+
+    <!--Menu-->
+    <string name="MiPuntuacion">Mi Puntuacion</string>
+    <string name="Patitos">--</string>
+    <string name="uid">--</string>
+    <string name="correo">--</string>
+    <string name="nombre">--</string>
+    <string name="JugarBtn">Jugar</string>
+    <string name="PuntuacionesBtn">Puntuaciones</string>
+    <string name="AcercaDeBtn">Salir</string>
+    <string name="Menutxt">Menú</string>
+
+
+    <!--Juego-->
+    <string name="TvContador">0</string>
+    <string name="TvNombre">----</string>
+    <string name="TvTiempo">0s</string>
+    <string name="AnchoTv">--</string>
+    <string name="AltoTv">--</string>
+
+
+    <!--Fin-->
+    <string name="Seacabo">Seacabo</string>
+    <string name="HasMatado">HasMatado</string>
+    <string name="numero">----</string>
+    <string name="irmenu">irmenu</string>
+    <string name="jugarotravez">jugarotravez</string>
+    <string name="puntuajes">puntuajes</string>
+
+
+    <!---Datos jugadores en los puntuajes-->
+    <string name="NombreJugador">Nombre</string>
+    <string name="PuntuajeJugador">Puntuaje</string>
+    
+    
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:orientation="vertical"
+    android:background="#086A87"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/seacabado"
+        android:gravity="center"
+        android:text="@string/Seacabo"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/hasmatado"
+        android:text="@string/HasMatado"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/numero"
+        android:text="@string/numero"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/jugarotravez"
+        android:text="@string/jugarotravez"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/irmenu"
+        android:text="@string/irmenu"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/puntuaje"
+        android:layout_gravity="center"
+        android:text="@string/puntuajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

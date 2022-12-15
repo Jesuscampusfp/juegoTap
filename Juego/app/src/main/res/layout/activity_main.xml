@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <!--EL boton de login-->
+        <!--Hemos creado un String para los boton de Login-->
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="@string/btnLogin"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+        </Button>
+        <!--EL boton de registro-->
+        <!--Hemos creado un String para los boton de register
+        se cambia en values strings.xml-->
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="@string/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
